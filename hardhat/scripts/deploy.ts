@@ -4,7 +4,7 @@
  *   npx hardhat run scripts/deploy.ts
  *
  * Environment (all optional, see .env.example):
- *   RITUAL_PRIVATE_KEY   deployer key (required)
+ *   DEPLOYER_PRIVATE_KEY deployer key stored with `hardhat keystore set`
  *   RITUAL_RPC_URL       defaults to https://rpc.ritualfoundation.org
  *   BLOCK_TIME_MS        override the measured block time
  *   EXECUTION_FUNDING    RITUAL to deposit into RitualWallet (default 0.5)

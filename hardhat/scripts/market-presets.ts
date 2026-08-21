@@ -14,7 +14,7 @@ export const OUTCOME = ["Unresolved", "YES", "NO"] as const;
 
 /**
  * The preset workshop market: short enough to demo end-to-end in a few minutes.
- * Mirrors DEMO_MARKET in web/src/lib/presets.ts.
+ * Mirrors the default values in the dashboard's create-market form.
  */
 export const DEMO_MARKET = {
   question: "Will ETH/USD be at least $4,000 when this market resolves?",
