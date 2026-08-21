@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const artifactPath = resolve(here, "../artifacts/contracts/RitualPredict.sol/RitualPredict.json");
-const outputPath = resolve(here, "../../web/src/lib/predict-abi.ts");
+const outputPath = resolve(here, "../../web/lib/predict-abi.ts");
 
 const artifact = JSON.parse(await readFile(artifactPath, "utf8")) as { abi: unknown[] };
 
